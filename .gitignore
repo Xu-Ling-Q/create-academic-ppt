@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node and generated exports
+node_modules/
+dist/
+build/
+*.inspect.ndjson
+*.layout.json
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local OS and editor state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary rendering output
+tmp/
+scratch/
+outputs/
