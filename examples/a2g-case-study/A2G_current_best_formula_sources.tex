@@ -1,0 +1,10 @@
+% Canonical formula source for the current editable figure.
+% Source: a2g_mambakt_promoted_no_duplicate_folded_bias_20260715.py:23-35.
+\begin{aligned}
+u_t, g_t, \delta_t &= \operatorname{split}(W x_t),\\
+\rho_t &= \exp\left[-\ln 2\; (0.5\,\operatorname{softplus}(\delta_t))\right],\\
+h_t &= \rho_t h_{t-1} + (1-\rho_t)\tanh(u_t),\\
+o_t &= g_t h_t + (1-g_t)x_t.
+\end{aligned}
+
+% Figure shorthand retains the same computation but omits vector brackets for fit.
