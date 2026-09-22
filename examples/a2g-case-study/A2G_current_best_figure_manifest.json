@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "route": "publication-figure",
+  "figure_claim": "The current frozen A2G-MambaKT control combines shifted causal interactions, fold-local empirical priors and causal recency-weighted concept evidence, a boundary-aware selective state-space path, a four-block causal post-norm attention backbone, and direct prior/statistic logit residuals for next-response prediction.",
+  "visual_source": {
+    "provider": "WisArt official OpenAI-compatible API",
+    "base_url": "https://wisart.kuaileshifu.com/v1",
+    "role": "component vocabulary, palette, line hierarchy, sequence/memory/attention motifs",
+    "current_run": "new 2026-08-24 request returned HTTP 500 token-unavailable error; no retry",
+    "reused_reference": "A2G_WisArt_component_board_4K_reference.png from the supplied Codex session, previously generated through the same official API"
+  },
+  "canvas": {
+    "design_preview_px": [3840, 2160],
+    "svg_viewbox": [0, 0, 3840, 2160],
+    "submission_width_mm": 360,
+    "submission_height_mm": 202.5,
+    "dimension_override": "User-requested 4K 16:9 board overrides the unknown-venue 180 mm double-column default.",
+    "color_mode": "RGB"
+  },
+  "artifacts": {
+    "svg": "A2G_current_best_main_figure_editable.svg",
+    "pptx": "A2G_current_best_main_figure_editable.pptx",
+    "pdf": "A2G_current_best_main_figure_vector.pdf",
+    "png": "A2G_current_best_main_figure_4K.png",
+    "wisart_board": "A2G_WisArt_component_board_4K_reference.png"
+  },
+  "editability": {
+    "svg": "native vector paths, text, rectangles, circles, lines, and markers",
+    "pptx": "native editable text, shapes, lines, and connectors; formulas are source-editable text approximations, not native Office Math",
+    "pdf": "vector PDF rendered independently from SVG through Chromium print-to-PDF",
+    "png": "4K raster preview only"
+  },
+  "protocol": {
+    "fold": 0,
+    "seed": 42,
+    "split": "validation-only",
+    "test_access": false,
+    "window_test_access": false,
+    "full_positive_count": "6/8",
+    "selective_ssm_auc_acc_only": "5/5",
+    "quality_freeze": false
+  }
+}
