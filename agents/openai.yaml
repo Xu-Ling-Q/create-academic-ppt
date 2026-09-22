@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Slides, Figures, and Roadmaps"
+  short_description: "Evidence-grounded editable decks, figures, and roadmaps"
+  default_prompt: "Use $create-academic-ppt to create an evidence-grounded academic deck, publication figure, or roadmap; if GPT-image-2 is used, reconstruct and audit the result as editable SVG/PPTX."
