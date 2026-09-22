@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="2160" viewBox="0 0 3840 2160" role="img" aria-labelledby="title desc">
+<title id="title">Evidence-grounded current A2G architecture</title><desc id="desc">Editable scientific architecture figure showing causal inputs, fold-local evidence, selective state-space recurrence, causal attention, prediction fusion, and the strict evidence boundary.</desc>
+<defs>
+    <marker id="arrow-ink" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L10,5 L0,10 z" fill="#17243A"/></marker>
+    <marker id="arrow-teal" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L10,5 L0,10 z" fill="#087F8C"/></marker>
+    <marker id="arrow-amber" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L10,5 L0,10 z" fill="#D79A22"/></marker>
+  </defs>
+<rect x="0" y="0" width="3840" height="2160" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="72" y="78" width="630" height="1506" rx="0" fill="#F8FAFC" stroke="none" stroke-width="0"/>
+<line x1="702" y1="126" x2="702" y2="1536" stroke="#D8E1E8" stroke-width="2.4" stroke-linecap="round"/>
+<text x="108" y="166.32" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#66788F"><tspan x="108" dy="0">1  CAUSAL INPUT</tspan></text>
+<text x="108" y="270" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#17243A"><tspan x="108" dy="0">Shifted</tspan><tspan x="108" dy="76.56">interaction</tspan></text>
+<rect x="702" y="78" width="630" height="1506" rx="0" fill="#FBFCF8" stroke="none" stroke-width="0"/>
+<line x1="1332" y1="126" x2="1332" y2="1536" stroke="#D8E1E8" stroke-width="2.4" stroke-linecap="round"/>
+<text x="738" y="166.32" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#66788F"><tspan x="738" dy="0">2  FOLD-LOCAL</tspan></text>
+<text x="738" y="270" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#17243A"><tspan x="738" dy="0">Prior + causal</tspan><tspan x="738" dy="76.56">statistics</tspan></text>
+<rect x="1332" y="78" width="1020" height="1506" rx="0" fill="#F3FBFB" stroke="none" stroke-width="0"/>
+<line x1="2352" y1="126" x2="2352" y2="1536" stroke="#D8E1E8" stroke-width="2.4" stroke-linecap="round"/>
+<text x="1368" y="166.32" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#66788F"><tspan x="1368" dy="0">3  SELECTIVE STATE</tspan></text>
+<text x="1368" y="289.44" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#17243A"><tspan x="1368" dy="0">Supported core</tspan></text>
+<rect x="2352" y="78" width="690" height="1506" rx="0" fill="#F7F9FC" stroke="none" stroke-width="0"/>
+<line x1="3042" y1="126" x2="3042" y2="1536" stroke="#D8E1E8" stroke-width="2.4" stroke-linecap="round"/>
+<text x="2388" y="166.32" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#66788F"><tspan x="2388" dy="0">4  EXECUTED BACKBONE</tspan></text>
+<text x="2388" y="289.44" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#17243A"><tspan x="2388" dy="0">Causal post-norm</tspan></text>
+<rect x="3042" y="78" width="726" height="1506" rx="0" fill="#FFFBF4" stroke="none" stroke-width="0"/>
+<line x1="3768" y1="126" x2="3768" y2="1536" stroke="#D8E1E8" stroke-width="2.4" stroke-linecap="round"/>
+<text x="3078" y="166.32" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#66788F"><tspan x="3078" dy="0">5  PREDICTION</tspan></text>
+<text x="3078" y="270" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" fill="#17243A"><tspan x="3078" dy="0">Three-path</tspan><tspan x="3078" dy="76.56">logit fusion</tspan></text>
+<path d="M630 723 L1347 723 L1347 816 L1389 816" fill="none" stroke="#17243A" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<path d="M630 1110 L1317 1110 L1317 960 L1389 960" fill="none" stroke="#17243A" stroke-width="5.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<path d="M1257 630 L1503 630 L1503 660" fill="none" stroke="#D79A22" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<path d="M1257 1071 L1653 1071 L1653 1122" fill="none" stroke="#087F8C" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M1785 891 L1851 834" fill="none" stroke="#087F8C" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M2289 834 L2409 864" fill="none" stroke="#087F8C" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M2979 864 L3114 597" fill="none" stroke="#17243A" stroke-width="5.7" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<path d="M3405 708 L3405 1251" fill="none" stroke="#17243A" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<path d="M3405 951 L3405 1251" fill="none" stroke="#D79A22" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-amber)"/>
+<path d="M3405 1182 L3405 1251" fill="none" stroke="#EF6A58" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<path d="M3405 1395 L3405 1431" fill="none" stroke="#087F8C" stroke-width="6.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M1011 753 L1011 1374 L3090 1374 L3090 864 L3114 864" fill="none" stroke="#D79A22" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-amber)" stroke-dasharray="15 12"/>
+<path d="M1011 1269 L1011 1458 L3069 1458 L3069 1095 L3114 1095" fill="none" stroke="#EF6A58" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)" stroke-dasharray="6 12"/>
+<text x="1458" y="1379.28" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#D79A22"><tspan x="1458" dy="0">fold-local prior side path</tspan></text>
+<text x="2112" y="1466.28" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#EF6A58"><tspan x="2112" dy="0">direct statistic side path</tspan></text>
+<line x1="156" y1="387" x2="630" y2="387" stroke="#17243A" stroke-width="4.2" stroke-linecap="round"/>
+<rect x="159" y="354" width="66" height="66" rx="9" fill="#FFFFFF" stroke="#54AEB5" stroke-width="4.2"/>
+<circle cx="192" cy="387" r="19.5" fill="#54AEB5" stroke="none" stroke-width="0"/>
+<circle cx="192" cy="309" r="9.6" fill="#54AEB5" stroke="none" stroke-width="0"/>
+<rect x="267" y="354" width="66" height="66" rx="9" fill="#FFFFFF" stroke="#54AEB5" stroke-width="4.2"/>
+<circle cx="300" cy="387" r="19.5" fill="#54AEB5" stroke="none" stroke-width="0"/>
+<circle cx="300" cy="309" r="9.6" fill="#54AEB5" stroke="none" stroke-width="0"/>
+<rect x="375" y="354" width="66" height="66" rx="9" fill="#FFFFFF" stroke="#087F8C" stroke-width="4.2"/>
+<circle cx="408" cy="387" r="19.5" fill="#087F8C" stroke="none" stroke-width="0"/>
+<rect x="483" y="354" width="66" height="66" rx="9" fill="#FFFFFF" stroke="#EF6A58" stroke-width="4.2"/>
+<circle cx="516" cy="387" r="19.5" fill="#EF6A58" stroke="none" stroke-width="0"/>
+<rect x="591" y="354" width="66" height="66" rx="9" fill="#FFFFFF" stroke="#EF6A58" stroke-width="4.2"/>
+<circle cx="624" cy="387" r="19.5" fill="#EF6A58" stroke="none" stroke-width="0"/>
+<text x="390" y="475.77" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40.5" font-weight="600" fill="#66788F"><tspan x="390" dy="0">history     target     next</tspan></text>
+<rect x="132" y="615" width="498" height="228" rx="24" fill="#E8F6F6" stroke="#087F8C" stroke-width="3.9"/>
+<circle cx="207" cy="729" r="36" fill="#087F8C" stroke="none" stroke-width="0"/>
+<text x="276" y="699.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" fill="#17243A"><tspan x="276" dy="0">Target token</tspan></text>
+<text x="276" y="777.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="500" fill="#66788F"><tspan x="276" dy="0">item + concept</tspan></text>
+<rect x="132" y="978" width="498" height="276" rx="24" fill="#FFF0EC" stroke="#EF6A58" stroke-width="3.9"/>
+<circle cx="207" cy="1116" r="36" fill="#EF6A58" stroke="none" stroke-width="0"/>
+<text x="276" y="1061.4" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" fill="#17243A"><tspan x="276" dy="0">History token</tspan></text>
+<text x="276" y="1134.12" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="49.5" font-weight="500" fill="#66788F"><tspan x="276" dy="0">item + concept</tspan><tspan x="276" dy="57.42">+ observed response</tspan></text>
+<rect x="162" y="1320" width="438" height="183" rx="21" fill="#FFFFFF" stroke="#EF6A58" stroke-width="3.3" stroke-dasharray="12 9"/>
+<text x="381" y="1388.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#EF6A58"><tspan x="381" dy="0">TRAIN ONLY</tspan></text>
+<text x="381" y="1459.29" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="43.5" font-weight="600" fill="#17243A"><tspan x="381" dy="0">item residual dropout = 0.4</tspan></text>
+<line x1="213" y1="1296" x2="213" y2="1254" stroke="#EF6A58" stroke-width="3.3" stroke-linecap="round" stroke-dasharray="9 6"/>
+<line x1="543" y1="1296" x2="543" y2="1254" stroke="#EF6A58" stroke-width="3.3" stroke-linecap="round" stroke-dasharray="9 6"/>
+<rect x="765" y="507" width="492" height="246" rx="24" fill="#FFF6DF" stroke="#D79A22" stroke-width="3.9"/>
+<text x="807" y="591.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" fill="#17243A"><tspan x="807" dy="0">Empirical priors</tspan></text>
+<text x="807" y="658.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="49.5" font-weight="500" fill="#66788F"><tspan x="807" dy="0">item + concept</tspan><tspan x="807" dy="57.42">training fold only</tspan></text>
+<circle cx="1125" cy="681" r="9" fill="#D79A22" stroke="none" stroke-width="0"/>
+<circle cx="1149" cy="681" r="9" fill="#D79A22" stroke="none" stroke-width="0"/>
+<circle cx="1173" cy="681" r="9" fill="#D79A22" stroke="none" stroke-width="0"/>
+<circle cx="1197" cy="681" r="9" fill="#F0C979" stroke="none" stroke-width="0"/>
+<circle cx="1221" cy="681" r="9" fill="#F0C979" stroke="none" stroke-width="0"/>
+<rect x="765" y="861" width="492" height="408" rx="24" fill="#E8F6F6" stroke="#087F8C" stroke-width="3.9"/>
+<text x="807" y="944.4" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="700" fill="#17243A"><tspan x="807" dy="0">RWCE + 6 stats</tspan></text>
+<text x="807" y="1010.4" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="44.4" font-weight="500" fill="#66788F"><tspan x="807" dy="0">causal same-concept</tspan><tspan x="807" dy="51.5">historical outcomes</tspan></text>
+<circle cx="840" cy="1134" r="21" fill="#087F8C" stroke="none" stroke-width="0"/>
+<circle cx="906" cy="1134" r="21" fill="#54AEB5" stroke="none" stroke-width="0"/>
+<circle cx="972" cy="1134" r="21" fill="#91CBD0" stroke="none" stroke-width="0"/>
+<circle cx="1038" cy="1134" r="21" fill="#C6E4E6" stroke="none" stroke-width="0"/>
+<circle cx="1104" cy="1134" r="21" fill="#D79A22" stroke="none" stroke-width="0"/>
+<circle cx="1170" cy="1134" r="21" fill="#F2C76B" stroke="none" stroke-width="0"/>
+<text x="1011" y="1232.48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42.6" font-weight="500" fill="#17243A"><tspan x="1011" dy="0">signed mass / (1 + mass)</tspan></text>
+<rect x="1389" y="660" width="396" height="462" rx="27" fill="#FFFFFF" stroke="#D8E1E8" stroke-width="3.9"/>
+<text x="1425" y="756.42" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="63" font-weight="700" fill="#17243A"><tspan x="1425" dy="0">Feature fusion</tspan></text>
+<text x="1587" y="844.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="49.5" font-weight="500" fill="#66788F"><tspan x="1587" dy="0">concatenate</tspan><tspan x="1587" dy="57.42">LayerNorm → Linear</tspan><tspan x="1587" dy="57.42">→ GELU → Dropout</tspan></text>
+<rect x="1467" y="1008" width="240" height="81" rx="15" fill="#F2F6F9" stroke="#D8E1E8" stroke-width="2.7"/>
+<text x="1587" y="1062.81" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46.5" font-weight="700" fill="#17243A"><tspan x="1587" dy="0">token width 256</tspan></text>
+<rect x="1851" y="444" width="438" height="780" rx="30" fill="#FFFFFF" stroke="#087F8C" stroke-width="7.8"/>
+<rect x="1855.5" y="448.5" width="429" height="102" rx="24" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<text x="2070" y="514.86" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#FFFFFF"><tspan x="2070" dy="0">SELECTIVE-SSM</tspan></text>
+<line x1="1905" y1="633" x2="1971" y2="588" stroke="#54AEB5" stroke-width="6.6" stroke-linecap="round"/>
+<line x1="1971" y1="588" x2="2037" y2="678" stroke="#54AEB5" stroke-width="6.6" stroke-linecap="round"/>
+<line x1="2037" y1="678" x2="2103" y2="570" stroke="#54AEB5" stroke-width="6.6" stroke-linecap="round"/>
+<line x1="2103" y1="570" x2="2169" y2="657" stroke="#54AEB5" stroke-width="6.6" stroke-linecap="round"/>
+<line x1="2169" y1="657" x2="2235" y2="609" stroke="#54AEB5" stroke-width="6.6" stroke-linecap="round"/>
+<circle cx="1905" cy="633" r="16.5" fill="#087F8C" stroke="none" stroke-width="0"/>
+<circle cx="1971" cy="588" r="16.5" fill="#087F8C" stroke="none" stroke-width="0"/>
+<circle cx="2037" cy="678" r="16.5" fill="#087F8C" stroke="none" stroke-width="0"/>
+<circle cx="2103" cy="570" r="16.5" fill="#087F8C" stroke="none" stroke-width="0"/>
+<circle cx="2169" cy="657" r="16.5" fill="#087F8C" stroke="none" stroke-width="0"/>
+<circle cx="2235" cy="609" r="16.5" fill="#EF6A58" stroke="none" stroke-width="0"/>
+<text x="1887" y="760.94" text-anchor="start" font-family="Georgia, serif" font-size="32.4" font-weight="500" fill="#17243A"><tspan x="1887" dy="0">split(Wx) → c, g, d</tspan><tspan x="1887" dy="36.29">rho = exp(−ln2 · 0.5</tspan><tspan x="1887" dy="36.29">      · softplus(d))</tspan><tspan x="1887" dy="36.29">h = rho h(prev) +</tspan><tspan x="1887" dy="36.29">    (1−rho) tanh(c)</tspan><tspan x="1887" dy="36.29">o = g h + (1−g) x</tspan></text>
+<rect x="1887" y="996" width="366" height="108" rx="18" fill="#E8F6F6" stroke="#54AEB5" stroke-width="2.7"/>
+<text x="2070" y="1045.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40.5" font-weight="600" fill="#17243A"><tspan x="2070" dy="0">scope mask → gate</tspan><tspan x="2070" dy="46.98">global = 1 · local ≥ 0.5</tspan></text>
+<rect x="1887" y="1116" width="366" height="96" rx="36" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<text x="2070" y="1155.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36.6" font-weight="700" fill="#FFFFFF"><tspan x="2070" dy="0">strict matched</tspan><tspan x="2070" dy="42.46">ablation 5/5</tspan></text>
+<rect x="2409" y="495" width="570" height="735" rx="27" fill="#FFFFFF" stroke="#D8E1E8" stroke-width="3.75"/>
+<text x="2451" y="590.91" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="61.5" font-weight="700" fill="#17243A"><tspan x="2451" dy="0">Causal post-norm</tspan></text>
+<text x="2451" y="659.82" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="500" fill="#66788F"><tspan x="2451" dy="0">8 heads · future mask</tspan></text>
+<rect x="2463" y="717" width="462" height="84" rx="15" fill="#F2F6F9" stroke="#D8E1E8" stroke-width="2.7"/>
+<text x="2487" y="772.12" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="47.4" font-weight="600" fill="#17243A"><tspan x="2487" dy="0">block 1     MHA + FFN</tspan></text>
+<path d="M2694 801 L2694 831" fill="none" stroke="#66788F" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<rect x="2463" y="831" width="462" height="84" rx="15" fill="#F2F6F9" stroke="#D8E1E8" stroke-width="2.7"/>
+<text x="2487" y="886.12" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="47.4" font-weight="600" fill="#17243A"><tspan x="2487" dy="0">block 2     MHA + FFN</tspan></text>
+<path d="M2694 915 L2694 945" fill="none" stroke="#66788F" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<rect x="2463" y="945" width="462" height="84" rx="15" fill="#F2F6F9" stroke="#D8E1E8" stroke-width="2.7"/>
+<text x="2487" y="1000.12" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="47.4" font-weight="600" fill="#17243A"><tspan x="2487" dy="0">block 3     MHA + FFN</tspan></text>
+<path d="M2694 1029 L2694 1059" fill="none" stroke="#66788F" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-ink)"/>
+<rect x="2463" y="1059" width="462" height="84" rx="15" fill="#E8F6F6" stroke="#54AEB5" stroke-width="2.7"/>
+<text x="2487" y="1114.12" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="47.4" font-weight="600" fill="#17243A"><tspan x="2487" dy="0">block 4     MHA only</tspan></text>
+<text x="2694" y="1197.85" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="37.8" font-weight="600" fill="#66788F"><tspan x="2694" dy="0">executed backbone · no 5/5 claim</tspan></text>
+<rect x="3114" y="486" width="582" height="222" rx="24" fill="#FFFFFF" stroke="#D8E1E8" stroke-width="3.6"/>
+<text x="3156" y="571.5" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="61.5" font-weight="700" fill="#17243A"><tspan x="3156" dy="0">Prediction MLP</tspan></text>
+<text x="3156" y="647.82" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="500" fill="#66788F"><tspan x="3156" dy="0">[attention output ; 6 stats]</tspan></text>
+<rect x="3114" y="777" width="582" height="174" rx="21" fill="#FFF6DF" stroke="#D79A22" stroke-width="3.45"/>
+<text x="3405" y="847.12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="51.6" font-weight="600" fill="#17243A"><tspan x="3405" dy="0">+ 0.08 · prior logit</tspan><tspan x="3405" dy="59.86">item + concept</tspan></text>
+<rect x="3114" y="1008" width="582" height="174" rx="21" fill="#FFF0EC" stroke="#EF6A58" stroke-width="3.45"/>
+<text x="3405" y="1078.12" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="51.6" font-weight="600" fill="#17243A"><tspan x="3405" dy="0">+ 0.12 · statistic logit</tspan><tspan x="3405" dy="59.86">direct evidence residual</tspan></text>
+<rect x="3288" y="1251" width="234" height="144" rx="72" fill="#FFFFFF" stroke="#17243A" stroke-width="4.2"/>
+<text x="3405" y="1341.36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17243A"><tspan x="3405" dy="0">Σ → sigmoid</tspan></text>
+<rect x="3144" y="1431" width="522" height="114" rx="57" fill="#087F8C" stroke="#087F8C" stroke-width="0"/>
+<text x="3405" y="1507.91" text-anchor="middle" font-family="Georgia, serif" font-size="47.4" font-weight="700" fill="#FFFFFF"><tspan x="3405" dy="0">P(next response = 1)</tspan></text>
+<rect x="72" y="1644" width="3696" height="450" rx="0" fill="#F7F9FC" stroke="none" stroke-width="0"/>
+<line x1="72" y1="1644" x2="3768" y2="1644" stroke="#D8E1E8" stroke-width="3.3" stroke-linecap="round"/>
+<text x="132" y="1749.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="700" fill="#66788F"><tspan x="132" dy="0">CURRENT VERIFIED SCREEN</tspan></text>
+<text x="132" y="1824.6" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="54.6" font-weight="700" fill="#17243A"><tspan x="132" dy="0">Full exceeds strongest admitted</tspan><tspan x="132" dy="63.34">baseline on 6 / 8 datasets</tspan></text>
+<circle cx="198" cy="1950" r="24" fill="#087F8C" stroke="#FFFFFF" stroke-width="3"/><text x="198" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="198" dy="0">A09</tspan></text>
+<circle cx="333" cy="1950" r="24" fill="#087F8C" stroke="#FFFFFF" stroke-width="3"/><text x="333" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="333" dy="0">A15</tspan></text>
+<circle cx="468" cy="1950" r="24" fill="#087F8C" stroke="#FFFFFF" stroke-width="3"/><text x="468" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="468" dy="0">A17</tspan></text>
+<circle cx="603" cy="1950" r="24" fill="#087F8C" stroke="#FFFFFF" stroke-width="3"/><text x="603" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="603" dy="0">Junyi</tspan></text>
+<circle cx="738" cy="1950" r="24" fill="#087F8C" stroke="#FFFFFF" stroke-width="3"/><text x="738" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="738" dy="0">NIPS</tspan></text>
+<circle cx="873" cy="1950" r="24" fill="#087F8C" stroke="#FFFFFF" stroke-width="3"/><text x="873" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="873" dy="0">Slep</tspan></text>
+<circle cx="1008" cy="1950" r="24" fill="#FFFFFF" stroke="#66788F" stroke-width="3.6"/><line x1="996" y1="1938" x2="1020" y2="1962" stroke="#EF6A58" stroke-width="4.2" stroke-linecap="round"/><line x1="1020" y1="1938" x2="996" y2="1962" stroke="#EF6A58" stroke-width="4.2" stroke-linecap="round"/><text x="1008" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="1008" dy="0">A12</tspan></text>
+<circle cx="1143" cy="1950" r="24" fill="#FFFFFF" stroke="#66788F" stroke-width="3.6"/><line x1="1131" y1="1938" x2="1155" y2="1962" stroke="#EF6A58" stroke-width="4.2" stroke-linecap="round"/><line x1="1155" y1="1938" x2="1131" y2="1962" stroke="#EF6A58" stroke-width="4.2" stroke-linecap="round"/><text x="1143" y="2033.28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="600" fill="#66788F"><tspan x="1143" dy="0">Statics</tspan></text>
+<line x1="1290" y1="1710" x2="1290" y2="2034" stroke="#D8E1E8" stroke-width="3" stroke-linecap="round"/>
+<text x="1368" y="1749.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="700" fill="#66788F"><tspan x="1368" dy="0">CONTRIBUTION ACCOUNTING</tspan></text>
+<rect x="1368" y="1791" width="1005" height="126" rx="21" fill="#E8F6F6" stroke="#087F8C" stroke-width="3.6"/>
+<text x="1870.5" y="1872.36" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17243A"><tspan x="1870.5" dy="0">Selective-SSM: 5 / 5 strict matched ablations</tspan></text>
+<text x="1867.5" y="1988.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44.4" font-weight="600" fill="#66788F"><tspan x="1867.5" dy="0">Other active modules: executed</tspan><tspan x="1867.5" dy="51.5">not independently proved 5/5</tspan></text>
+<line x1="2475" y1="1710" x2="2475" y2="2034" stroke="#D8E1E8" stroke-width="3" stroke-linecap="round"/>
+<text x="2550" y="1749.84" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="700" fill="#66788F"><tspan x="2550" dy="0">CLAIM BOUNDARY</tspan></text>
+<text x="2550" y="1837.9" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="54.6" font-weight="600" fill="#17243A"><tspan x="2550" dy="0">fold 0 · seed 42 · validation only</tspan><tspan x="2550" dy="63.34">test access = false</tspan></text>
+<rect x="2550" y="1953" width="1062" height="84" rx="18" fill="#FFF6DF" stroke="#D79A22" stroke-width="3"/>
+<text x="3081" y="1988.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="41.4" font-weight="600" fill="#17243A"><tspan x="3081" dy="0">supporting evidence</tspan><tspan x="3081" dy="48.02">not five-fold / multi-seed / universal SOTA</tspan></text>
+</svg>
