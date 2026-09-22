@@ -1,0 +1,26 @@
+name: Validate skill
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate repository
+        run: python scripts/validate_repo.py
+      - name: Audit SVG
+        run: >
+          python scripts/audit_publication_figure.py
+          examples/a2g-case-study/A2G_current_best_main_figure_editable.svg
+          --target-width-mm 360 --art-kind line --strict
+      - name: Compile Python helpers
+        run: python -m compileall -q scripts
