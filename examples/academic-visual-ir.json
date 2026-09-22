@@ -1,0 +1,139 @@
+{
+  "version": "academic-visual-ir/1",
+  "meta": {
+    "id": "example-method",
+    "title": "Evidence-grounded method overview",
+    "description": "A single continuous research method route rendered from a shared IR.",
+    "kind": "publication-figure",
+    "language": "en",
+    "revision": "2026-08-31",
+    "status": "verified"
+  },
+  "canvas": {
+    "width": 1600,
+    "height": 900,
+    "background": "#F7F9FC"
+  },
+  "groups": [
+    {
+      "id": "method-group",
+      "label": "Verified method path",
+      "x": 50,
+      "y": 250,
+      "w": 1500,
+      "h": 390
+    }
+  ],
+  "nodes": [
+    {
+      "id": "input",
+      "label": "Input sequence",
+      "subtitle": "observed interactions",
+      "kind": "data",
+      "x": 90,
+      "y": 390,
+      "w": 220,
+      "h": 100,
+      "source": "paper:sec.3",
+      "status": "verified",
+      "tags": ["input"]
+    },
+    {
+      "id": "selector",
+      "label": "Causal statistic selector",
+      "subtitle": "verified preprocessing",
+      "kind": "method",
+      "x": 390,
+      "y": 390,
+      "w": 250,
+      "h": 100,
+      "source": "code:selector.forward",
+      "status": "verified",
+      "tags": ["causal", "selection"]
+    },
+    {
+      "id": "ssm",
+      "label": "Selective state space",
+      "subtitle": "configured recurrent path",
+      "kind": "mechanism",
+      "x": 720,
+      "y": 390,
+      "w": 250,
+      "h": 100,
+      "source": "code:model.forward",
+      "status": "verified",
+      "tags": ["ssm"]
+    },
+    {
+      "id": "head",
+      "label": "Prediction head",
+      "subtitle": "task-specific output",
+      "kind": "method",
+      "x": 1050,
+      "y": 390,
+      "w": 230,
+      "h": 100,
+      "source": "code:evaluator",
+      "status": "verified",
+      "tags": ["prediction"]
+    },
+    {
+      "id": "validation",
+      "label": "Validation",
+      "subtitle": "reported metric and uncertainty",
+      "kind": "validation",
+      "x": 1360,
+      "y": 390,
+      "w": 150,
+      "h": 100,
+      "source": "paper:table.2",
+      "status": "verified",
+      "tags": ["evidence"]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "input",
+      "target": "selector",
+      "label": "sequence",
+      "kind": "flow",
+      "provenance": "paper:sec.3",
+      "status": "verified"
+    },
+    {
+      "id": "e2",
+      "source": "selector",
+      "target": "ssm",
+      "label": "selected state",
+      "kind": "flow",
+      "provenance": "code:selector.forward",
+      "status": "verified"
+    },
+    {
+      "id": "e3",
+      "source": "ssm",
+      "target": "head",
+      "label": "hidden state",
+      "kind": "flow",
+      "provenance": "code:model.forward",
+      "status": "verified"
+    },
+    {
+      "id": "e4",
+      "source": "head",
+      "target": "validation",
+      "label": "prediction",
+      "kind": "validation",
+      "provenance": "paper:table.2",
+      "status": "verified"
+    }
+  ],
+  "steps": [
+    {
+      "id": "path",
+      "label": "Main path",
+      "nodeIds": ["input", "selector", "ssm", "head", "validation"]
+    }
+  ]
+}
